@@ -1,0 +1,84 @@
+.Featured-Main{
+    height: 110vh;
+    padding-bottom: 3rem;
+    padding-top: 5rem;
+}
+.featured-intro h2 {
+    font-size: 5rem;
+    font-weight: 100;
+    font-family: NeueMontreal, Roboto, sans-serif;
+    padding-left: 2rem;
+}
+.hr-featured{
+    height: 0.10vh;
+    width: 100%;
+    background-color: #0000004a;
+    margin-top: 3rem;
+}
+.card-featured{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    margin-top: 5rem;
+}
+.card1 {
+    width: 49%;
+    height: 85vh;
+    transition: width 043s ease, height 0.4s ease; 
+}
+
+.card1:hover {
+    width: 47%;
+    height: 81.7vh;
+}
+.card2 {
+    width: 49%;
+    height: 85vh;
+    transition: width 0.4s ease, height 0.4s ease; 
+}
+
+.card2:hover {
+    width: 47%;
+    height: 81.7vh;
+}
+
+.card1 h3{
+    display: flex;
+    font-family: NeueMontreal, Roboto, sans-serif;
+    align-items: center;
+    font-size: 1.8rem;
+    gap: 0.7rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+.card2 h3{
+    display: flex;
+    font-family: NeueMontreal, Roboto, sans-serif;
+    align-items: center;
+    gap: 0.7rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+.fyde-card{
+    background-image: url("../assets/featured1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 0.7rem;
+}
+.vise-card{
+    background-image: url("../assets/featured.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.7rem;
+}

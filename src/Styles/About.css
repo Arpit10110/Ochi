@@ -1,0 +1,45 @@
+.About-Main {
+    width: 100%;
+    height: auto;
+    padding-bottom: 5rem;
+    padding-top: 10rem;
+    background-color: rgb(205, 234, 104);
+}
+.upperCont-About h2{
+    font-size: 5.1rem;
+    width: 88%;
+    margin-left: 3rem;
+    font-family: NeueMontreal, Roboto, sans-serif;
+    font-weight: 400;
+}
+.upperCont-About h2 a{
+    color: black;
+    text-decoration: underline;
+}
+.approach-div{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 6rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+}
+.approach h2 {
+    font-weight: 100;
+    font-size: 5rem;
+}
+.approach button{
+    padding: 1.5rem;
+    border-radius: 5rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    background-color: black;
+    font-weight: 100;
+    width: 48%;
+}
+.approach-div img{
+    width: 49%;
+    border-radius: 1rem;
+}

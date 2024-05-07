@@ -1,0 +1,52 @@
+.eye-main{
+    height: 100vh;
+    background: url("../assets/eye.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative
+}
+.eye-container {
+    position: absolute;
+    top: 18%;
+    display: flex;
+    gap: 3rem;
+    left: 36%;
+}
+.eye-white {
+    width: 30vh;
+    height: 30vh;
+    background-color: white;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eye-black {
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.eye-line {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(50%);
+    transform: translateY(50%);
+    display: inline;
+}
+.eye-inner {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    background-color: white;
+    overflow: hidden;
+}

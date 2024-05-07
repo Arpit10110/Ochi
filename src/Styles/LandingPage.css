@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Sans+Narrow:wght@400;700&display=swap");
+.landingMain {
+  width: 100%;
+  background-color: rgb(240, 241, 240);
+  height: auto;
+  padding-top: 16rem;
+  padding-bottom: 5rem;
+}
+.LandingContent {
+  display: flex;
+  padding-left: 5rem;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.LandingContent h3 {
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-style: normal;
+  font-size: 10rem;
+  color: #000000d6;
+  display: flex;
+  margin-top: -2rem;
+  font-weight: bold;
+  align-items: center;
+  letter-spacing: -4px;
+}
+.landingImg {
+  width: 12%;
+  border-radius: 0.5rem;
+  margin-right: 1.3rem;
+}
+.hr {
+  height: 0.14vh;
+  width: 100%;
+  background-color: #0000004a;
+  margin-top: 6rem;
+}
+.belowUnderline {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  align-items: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.belowUnderline h3 {
+  font-weight: 100;
+  color: #000000d6;
+  font-family: NeueMontreal, Roboto, sans-serif;
+}
+.startProject {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.startProject h3 {
+  font-weight: 100;
+  color: #000000d6;
+  border: 2px solid;
+  font-family: NeueMontreal, Roboto, sans-serif;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  border-radius: 5rem;
+  font-size: 1.3rem;
+}
+.arrow {
+  padding: 0.5rem;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  border-radius: 5rem;
+}

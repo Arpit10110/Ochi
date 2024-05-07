@@ -1,0 +1,17 @@
+html{
+    font-size: 70%;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-weight: 100;
+    color: black;
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
