@@ -23,7 +23,7 @@ const Eye = () => {
   }, []);
 
   return (
-    <div className="eye-main">
+    <div  data-scroll data-scroll-speed="-.4.7" className="eye-main">
       <div className="eye-container">
         <div className="eye-white">
           <div className="eye-black">

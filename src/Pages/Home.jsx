@@ -7,7 +7,9 @@ import Eye from "../Components/Eye.jsx"
 import Featured from "../Components/Featured.jsx"
 import Review from "../Components/Review.jsx"
 import Footer from "../Components/Footer.jsx"
+import LocomotiveScroll from 'locomotive-scroll';
 const Home = () => {
+  const locomotiveScroll = new LocomotiveScroll();
   return (
    <>
    <Navbar/>

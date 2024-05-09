@@ -23,10 +23,17 @@
   align-items: center;
   letter-spacing: -4px;
 }
-.landingImg {
+.landingPage-Img{
   width: 12%;
   border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
   margin-right: 1.3rem;
+  align-items: center;
+}
+.landingImg {
+  width: 100%;
+  border-radius: 0.5rem;
 }
 .hr {
   height: 0.14vh;
@@ -69,4 +76,39 @@
   margin: auto;
   justify-content: center;
   border-radius: 5rem;
+}
+@media only screen and (width<= 600px) {
+  .LandingContent {
+    display: flex;
+    padding-left: 3rem;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .landingPage-Img {
+    width: 17rem;
+    margin-right: 1.3rem;
+  }
+  .belowUnderline {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    flex-direction: column;
+    font-size: 2.5rem;
+    align-items: baseline;
+    gap: 2.5rem;
+    padding-left: 3rem;
+    padding-right: 5rem;
+  }
+  .startProject h3 {
+    font-weight: 100;
+    color: #000000d6;
+    border: 2px solid;
+    font-family: NeueMontreal, Roboto, sans-serif;
+    padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+    border-radius: 5rem;
+    font-size: 2.5rem;
+  }
+  .arrow {
+    display: none;
+  }
 }

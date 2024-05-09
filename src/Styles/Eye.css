@@ -4,7 +4,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: relative
+    position: relative;
+    z-index : -5;
 }
 .eye-container {
     position: absolute;
@@ -49,4 +50,48 @@
     border-radius: 50%;
     background-color: white;
     overflow: hidden;
+}
+@media only screen and (width<= 600px) {
+    .eye-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+        background-size: cover;
+    }
+    .eye-container {
+        position: relative;
+        top: -10%;
+        left: 0%;
+        display: flex;
+        gap: 3rem;
+    }
+    .eye-white {
+        width: 18vh;
+        height: 18vh;
+        background-color: white;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .eye-black {
+        width: 13vh;
+        height: 13vh;
+        border-radius: 50%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+    }
+    .eye-inner {
+        width: 3vh;
+        height: 3vh;
+        border-radius: 50%;
+        background-color: white;
+        overflow: hidden;
+    }
 }

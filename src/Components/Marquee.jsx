@@ -4,7 +4,7 @@ import "../Styles/Marquee.css";
 
 const Marquee = () => {
   return (
-    <div className='Marquee-Main'>
+    <div data-scroll data-scroll-section data-scroll-speed="-.1" className='Marquee-Main'>
       <div className="marquee-Wrapper">
         <motion.h3
           style={{ display: 'inline-block', whiteSpace: 'nowrap' }}

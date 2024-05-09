@@ -87,3 +87,24 @@
     background-color: transparent;
     color: white;
 }
+@media only screen and (width<=600px)  {
+    .Review-Main {
+        height: auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .ochi-Card {
+        width: 94%;
+        height: 50vh;
+    }
+    .clutch-Card {
+        width: 94%;
+        height: 50vh;
+    }
+    .Future-Card{
+        width: 94%;
+        height: 50vh;
+    }
+}

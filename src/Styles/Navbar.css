@@ -27,3 +27,8 @@ nav {
 .links a:nth-child(5){
     margin-left: 24rem;
 }
+@media only screen and (width<= 600px){
+    .links{
+        display: none;
+    }
+}
