@@ -11,9 +11,7 @@ const LandingPage = () => {
         <div className="LandingContent"> 
         <h3>WE CREATE</h3>
         <h3>
-          <div className="landingPage-Img">
-           <motion.img initial={{width:"0%"}} animate={{width:"100%"}} transition={{ease:[0.76,0,0.24,1], duration:1}} className='landingImg' src={landingDivImg} alt=" " />  
-          </div>
+           <motion.img initial={{width:"0%"}} animate={{width:"16rem"}} transition={{ease:[0.76,0,0.24,1], duration:1}} className='landingImg' src={landingDivImg} alt=" " />  
            EYE-OPENING</h3>
         <h3>PRESENTATIONS</h3>
         </div>

@@ -24,7 +24,7 @@
   letter-spacing: -4px;
 }
 .landingPage-Img{
-  width: 12%;
+  width: auto;
   border-radius: 0.5rem;
   display: flex;
   justify-content: center;
@@ -32,7 +32,7 @@
   align-items: center;
 }
 .landingImg {
-  width: 100%;
+  width: 12;
   border-radius: 0.5rem;
 }
 .hr {
